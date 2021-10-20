@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import "./Responsive.css";
+@import "./Utility.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-bg-color: #2478f8;
+}
+header {
+  height: 58px;
+  background-color: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul img {
+  padding-left: 7px;
+  width: 109px;
+}
+nav ul li a {
+  /* display: inline; */
+  color: white;
+
+  text-decoration: none;
+}
+nav ul li a:hover {
+  font-weight: bolder;
+}
+
+.input-component {
+  display: flex;
+  margin: auto;
+}
+
+.input-component input {
+  width: 30vw;
+  height: 27px;
+  border-radius: 5px;
+  margin: 0 16px 0 10px;
+  padding: 0 12px;
+}
+.input-component button {
+  border: 2px solid white;
+  background-color: var(--main-bg-color);
+  color: white;
+  /* margin: 0.7rem 1rem 0 0; */
+  /* margin-left: 276px;*/
+  padding: 5px;
+
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* //////////////////////////////////////////////////////////container */
+.container {
+  min-height: calc(100vh - 58px - 9vh);
+}
+.slider {
+  /* margin: auto; */
+  /* width: 80vw; */
+  /* margin: 12px 0; */
+  max-width: 91vw;
+  margin: 37px auto;
+  overflow: hidden;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.cards {
+  display: flex;
+  overflow: hidden;
+}
+
+.lines {
+  margin: 6px 0;
+  max-width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-centre {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.my-2 {
+  margin: 5px;
+}
+.my-1 {
+  margin: 3px 0;
+}
+.color-G {
+  color: rgb(5, 114, 5);
+}
+.color-TM {
+  color: rgb(90, 89, 89);
+  font-weight: 200;
+}
+
+/*footer */
+footer {
+  background-color: var(--main-bg-color);
+  color: white;
+  height: 9vh;
+  font-family: "Lato", sans-serif;
+}

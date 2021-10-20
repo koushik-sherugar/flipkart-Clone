@@ -1,0 +1,31 @@
+@media screen and (max-width: 834px) {
+  nav {
+    flex-direction: column;
+  }
+  .input-component input {
+    margin-top: 5px;
+    /* background-color: brown; */
+  }
+  .input-component button {
+    margin-top: 3px;
+  }
+  ul li a {
+    padding: 0 3vw;
+  }
+}
+
+@media screen and (max-width: 654px) {
+  body {
+    background-color: burlywood;
+  }
+  /* .input-component input {
+    margin-top: 5px;
+    background-color: brown;
+  }
+  .input-component button {
+    margin-top: 3px;
+  }
+  ul li a {
+    padding: 0 1vw;
+  } */
+}
